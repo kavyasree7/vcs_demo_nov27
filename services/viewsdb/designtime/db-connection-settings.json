@@ -1,0 +1,43 @@
+{
+  "username" : "postgres",
+  "password" : "7b6a43524a322c0c6e6166771a1378700d662158",
+  "url" : "jdbc:postgresql://ec2-54-87-2-36.compute-1.amazonaws.com:5432/viewsdb",
+  "driverClass" : "org.postgresql.Driver",
+  "dialect" : "com.wavemaker.runtime.data.dialect.WMPostgresSQLDialect",
+  "serviceId" : "viewsdb",
+  "packageName" : "com.vcs_demo_nov27",
+  "dbType" : "PostgreSQL",
+  "host" : "ec2-54-87-2-36.compute-1.amazonaws.com",
+  "dbName" : "viewsdb",
+  "port" : "5432",
+  "schemaName" : "public",
+  "tableFilter" : [ {
+    "table" : "all types",
+    "schema" : "public"
+  }, {
+    "table" : "CLOB_TABLE",
+    "schema" : "public"
+  }, {
+    "table" : "Datetime Type",
+    "schema" : "public"
+  }, {
+    "table" : "newTable",
+    "schema" : "newschema"
+  } ],
+  "schemaFilter" : [ ],
+  "impersonateUser" : false,
+  "activeDirectoryDomain" : null,
+  "hbm2ddl" : "none",
+  "maxPageSize" : 100,
+  "minPoolSize" : 2,
+  "maxPoolSize" : 4,
+  "transactionTimeout" : 30,
+  "dataSourceType" : "WM_MANAGED_DATASOURCE",
+  "jndiName" : "",
+  "reloadInfo" : {
+    "reload" : false,
+    "reason" : null,
+    "message" : null
+  },
+  "readOnly" : false
+}
